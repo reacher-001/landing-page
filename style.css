@@ -94,3 +94,23 @@ a{
     font-weight: 900px;
     padding: 16px 0px;
 }
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 48px;
+    align-items: center;
+}
+.quote{
+    font-size: 36px;
+    font-weight: 300px;
+    color: #1F2937;
+    font-style: italic;
+    width: 70%;
+}
+.quote-author{
+    align-self: flex-end;
+    font-weight: 900;
+    padding-top: 16px;
+    margin-right: 225px;
+}
