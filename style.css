@@ -114,3 +114,38 @@ a{
     padding-top: 16px;
     margin-right: 225px;
 }
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+}
+.banner{
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 32px 64px;
+    border-radius: 8px;
+    flex-basis: 70%;
+    justify-content: space-between;
+}
+.banner-button{
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    padding: 4px 16px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+.banner-title{
+    font-weight: 700;
+}
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    height:75px;
+}
