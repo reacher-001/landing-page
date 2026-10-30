@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-body, ul, h1, h2, p{
+body, ul, h1, h2,h3, p{
     font-family: "Roboto", sans-serif;
     padding: 0px;
     margin: 0px;
@@ -59,4 +59,38 @@ a{
 }
 .hero-image{
     border-radius: 10px;
+}
+.my-info{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+}
+.card-container{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+}
+.card{
+    margin: 16px;
+    padding: 0px;
+    flex: 1;
+}
+.card img{
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-radius: 20px;
+    height: 200px;
+    max-width: 100%;
+    object-fit: cover;
+}
+.card p{
+    margin: 8px;
+}
+.my-info-heading{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+    padding: 16px 0px;
 }
